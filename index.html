@@ -9,7 +9,10 @@
     <div class="wrapper">
         <header>
             <div class="logo">
-                <img src="img/ball.svg" alt="">
+                <picture>
+                    <source srcset="img/ball.webp" type="image/webp">
+                    <img src="img/ball.svg" alt="">
+                </picture>
                 <div class="txt">
                     <p>футбольний</p>
                     <h1>Менеджер</h1>
@@ -18,15 +21,16 @@
             </div>
             <div class="logo_info">
                 <div class="graphic">
-                    <p>
+                    <picture>
+                        <source srcset="img/graphic.webp" type="image/webp">
                         <img src="img/graphic.svg" alt="">
                         Працюємо 24/7
-                    </p>
+                    </picture>
                 </div>
                 <div class="contacts">
-                    <a href="">
+                    <a class="contacts" href="+380975555501">
+                        <source srcset="img/phone.webp" type="image/webp">
                         <img src="img/phone.svg" alt="">
-                        <!-- hrepf tel -->
                         +38 (097) 555-55-01
                     </a>
                 </div>
@@ -34,12 +38,17 @@
         </header>
         <main>
             <section class="photo">
-                <img src="img/picture.png" alt="">
+                <picture>
+                    <source srcset="img/picture1" type="image/png">
+                    <img src="img/picture.png" alt="">
+                </picture>
                 <div class="under_photo">
-                        <img src="img/shar1.png" alt="">
-                        <img src="img/shar2.png" alt="">
-                        <img src="img/shar3.png" alt="">
-                        <img src="img/shar4.png" alt="">
+                    <picture>
+                        <source srcset="" type=""><img src="img/shar1.png" alt=""></source>
+                        <source srcset="" type=""><img src="img/shar2.png" alt=""></source>
+                        <source srcset="" type=""><img src="img/shar3.png" alt=""></source>
+                        <source srcset="" type=""><img src="img/shar4.png" alt=""></source>
+                    </picture>
                 </div>
             </section>
             <aside class="links">
@@ -66,9 +75,9 @@
             © Футбольний менеджер 2018.
             <nav class="social_media">
                 <ul>
-                    <li><a href="#"><img src="img/інстаграм.svg" alt=""></a></li>
-                    <li><a href="#"><img src="img/фейсбук.svg" alt=""></a></li>
-                    <li><a href="#"><img src="img/твіттер.svg" alt=""></a></li>
+                    <li><a href="#"><source srcset="" type=""><img src="img/інстаграм.svg" alt=""></source></a></li>
+                    <li><a href="#"><source srcset="" type=""><img src="img/фейсбук.svg" alt=""></source></a></li>
+                    <li><a href="#"><source srcset="" type=""><img src="img/твіттер.svg" alt=""></source></a></li>
                 </ul>
             </nav>
         </footer>
