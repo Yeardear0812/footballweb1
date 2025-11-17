@@ -8,27 +8,27 @@
 </head>
 <body>
     <div class="wrapper">
-        <header>
-            <div class="logo">
+        <header class="flex items_center">
+            <div class="logo flex">
                 <picture>
                     <source srcset="img/ball.webp" type="image/webp">
                     <img src="img/ball.svg" alt="">
                 </picture>
-                <div class="txt">
+                <div class="txt ">
                     <p>футбольний</p>
-                    <h1>Менеджер</h1>
+                    <h2>Менеджер</h2>
 
                 </div>
             </div>
-            <div class="logo_info">
-                <div class="graphic">
+            <div class="logo_info ">
+                <div class="graphic flex">
                     <picture>
                         <source srcset="img/graphic.webp" type="image/webp">
                         <img src="img/graphic.svg" alt="">
-                        Працюємо 24/7
                     </picture>
+                    <p>Працюємо 24/7</p>  
                 </div>
-                <div class="contacts">
+                <div class="contacts flex">
                     <a class="contacts" href="+380975555501">
                         <source srcset="img/phone.webp" type="image/webp">
                         <img src="img/phone.svg" alt="">
@@ -37,42 +37,53 @@
                 </div>
             </div>
         </header>
-        <main>
-            <section class="photo">
-                <picture>
-                    <source srcset="img/picture1" type="image/png">
+        <main >
+            <section class="photo ">
+                <picture class="main_picture">
+
                     <img src="img/picture.png" alt="">
                 </picture>
                 <div class="under_photo">
-                    <picture>
-                        <img src="img/shar1.png" alt="">
-                        <img src="img/shar2.png" alt="">
-                        <img src="img/shar3.png" alt="">
-                        <img src="img/shar4.png" alt="">
-                    </picture>
+                    
+                    <picture class="under1"><img src="img/shar1.png" alt=""></picture>
+                    <picture class="under2"><img src="img/shar2.png" alt=""></picture>
+                    <picture class="under3"><img src="img/shar3.png" alt=""></picture>
+                    <picture class="under4"><img src="img/shar4.png" alt=""></picture>
+                    
                 </div>
             </section>
-            <aside class="links">
-            
-                <nav>
+            <div class="info flex">
+                <aside class="links ">
                     <h2>Футбольні партнери</h2>
-                    <ul>
-                        <li><a href="#">останні новини</a></li>
-                        <li><a href="#">приватний менеджер Вася</a></li>
-                        <li><a href="#">фанати сектору №48</a></li>
-                        <li><a href="#">доставка їжі на стадіон</a></li>
-                        <li><a href="#">бронювання квитків</a></li>
-                    </ul>
-                </nav>
-            </aside>
-            <section class="txt_main">
-                <h2>Про футбол</h2>
-                <p>Командний вид спорту, який грається між двома командами по одинадцяти гравців зі сферичним м'ячем. Близько 250 мільйонів чоловіків і жінок із більш ніж 200 країн грають у футбол, що робить його найпопулярнішим в світі видом спорту.</p>
-                <P>У футбол грають на прямокутному полі з воротами на кожному кінці. Мета гри полягає в тому, щоб забити м'яч в ворота протилежної команди. Гравцям не дозволяється торкатися м'яча своїми руками, поки він знаходиться в грі, якщо вони не є воротарі (і тільки тоді, коли в їхньому штрафному майданчику). </P>
-                <P>Або при вкиданні м'яча. Інші гравці в основному використовують свої ноги, щоб нанести удар або передати м'яч, але можуть також використовувати голову і тулуб.</P>
-            </section>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">останні новини</a>
+                            </li>
+                            <li>
+                                <a href="#">приватний менеджер Вася</a>
+                            </li>
+                            <li>
+                                <a href="#">фанати сектору №48</a>
+                            </li>
+                            <li>
+                                <a href="#">доставка їжі на стадіон</a>
+                            </li>
+                            <li>
+                                <a href="#">бронювання квитків</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+                <section class="txt_main ">
+                    <h1>Про футбол</h1>
+                    <p>Командний вид спорту, який грається між двома командами по одинадцяти гравців зі сферичним м'ячем. Близько 250 мільйонів чоловіків і жінок із більш ніж 200 країн грають у футбол, що робить його найпопулярнішим в світі видом спорту.</p>
+                    <P>У футбол грають на прямокутному полі з воротами на кожному кінці. Мета гри полягає в тому, щоб забити м'яч в ворота протилежної команди. Гравцям не дозволяється торкатися м'яча своїми руками, поки він знаходиться в грі, якщо вони не є воротарі (і тільки тоді, коли в їхньому штрафному майданчику). </P>
+                    <P>Або при вкиданні м'яча. Інші гравці в основному використовують свої ноги, щоб нанести удар або передати м'яч, але можуть також використовувати голову і тулуб.</P>
+                </section>
+            </div>
         </main>
-        <footer>
+        <footer class="items_center">
             <p>© Футбольний менеджер 2018.</p>
             <nav class="social_media">
                 <ul>

@@ -1,77 +1,107 @@
-h1 ,h2{
-    font-size: 24px;
-    line-height: 7px;
-    font-weight: bold;
-    font-family: "Arial";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-.body{
-    background-color: #fff;
-    font-family: "Arial";
+ul{
+    list-style: none;
 }
-
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.items_center{
+    display: flex;
+    align-items: center;
+}
+header{
+    padding: 15px 0;
+}
 .wrapper{
     background-color: #fff;
-}
-
-.links h2{
-    
-    background-color: #39930d;
-
-}
-
-footer{
-    background-color: #39930d;
-}
-
-h1{
-    text-transform: uppercase;
-    color:#39930d;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .txt p{
     font-size: 14px;
-    line-height: 7px;
     color: #5a5a5a;
+    font-family: "Arial";
 }
-
-.logo_info picture ,a{
+.txt h2{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #39930d;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.graphic{
     font-size: 14px;
-    line-height: 7px;
     color: #5a5a5a;
     font-weight: bold;
-
+    font-family: "Arial";
+    text-align: right;
 }
-
+.contacts{
+    font-size: 14px;
+    color: #5a5a5a;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: right;
+}
+.photo{
+    gap :10px;
+    display: block;
+}
+main{
+    padding-bottom: 39px;
+}
+.info{
+    padding-top: 31px;
+}
 .links h2{
     font-size: 18px;
-    line-height: 7px;
     text-transform: uppercase;
     color: #ffffff;
+    max-width: 300px;
+    background-color: #39930d;
     font-weight: bold;
+    font-family: "Arial";
 }
-
-.links a{
+.list a{
     font-size: 14px;
-    line-height: 30px;
+    line-height: 2.1em;
     text-decoration: underline;
     text-transform: uppercase;
     color: #343434;
+    font-family: "Arial";
 }
-
-.txt_main h2{
+.txt_main h1{
+    font-size: 24px;
     color: #39930d;
+    font-weight: bold;
+    font-family: "Arial";
 }
-
-.txt_main p{    
+.txt_main{
+    max-width: 612px;
     font-size: 14px;
-    line-height: 21px;
+    line-height: 1,5em;
     color: #343434;
-
+    font-family: "Arial";
+}
+.txt_main h2{
+    margin-bottom: 17px;
+    
+}
+.txt_main p{
+    margin-bottom: 18px;
+}
+footer{
+    background-color: #39930d;
 }
 footer p{
     font-size: 14px;
-    line-height: 7px;
     color: #ffffff;
-
+    font-family: "Arial";
 }
