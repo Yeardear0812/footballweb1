@@ -20,9 +20,9 @@
 
                 </div>
             </div>
-            <div class="logo_info ">
+            <div class="logo_info flex items_center">
                 <div class="graphic flex">
-                    <picture>
+                    <picture class="graphic_photo">
                         <source srcset="img/graphic.webp" type="image/webp">
                         <img src="img/graphic.svg" alt="">
                     </picture>
@@ -30,9 +30,11 @@
                 </div>
                 <div class="contacts flex">
                     <a class="contacts" href="+380975555501">
-                        <source srcset="img/phone.webp" type="image/webp">
-                        <img src="img/phone.svg" alt="">
-                        +38 (097) 555-55-01
+                        <picture class="phone_photo">
+                            <source srcset="img/phone.webp" type="image/webp">
+                            <img src="img/phone.svg" alt="">
+                        </picture>
+                    +38 (097) 555-55-01
                     </a>
                 </div>
             </div>
@@ -54,28 +56,21 @@
             </section>
             <div class="info flex">
                 <aside class="links ">
-                    <h2>Футбольні партнери</h2>
+                    <div class="h2">
+                        <h2>Футбольні партнери</h2>
+                    </div>
                     <nav>
                         <ul>
-                            <li>
-                                <a href="#">останні новини</a>
-                            </li>
-                            <li>
-                                <a href="#">приватний менеджер Вася</a>
-                            </li>
-                            <li>
-                                <a href="#">фанати сектору №48</a>
-                            </li>
-                            <li>
-                                <a href="#">доставка їжі на стадіон</a>
-                            </li>
-                            <li>
-                                <a href="#">бронювання квитків</a>
-                            </li>
+                            <li><a href="#">останні новини</a></li>
+                            <li><a href="#">приватний менеджер Вася</a></li>
+                            <li><a href="#">фанати сектору №48</a></li>
+                            <li><a href="#">доставка їжі на стадіон</a></li>
+                            <li><a href="#">бронювання квитків</a></li>
                         </ul>
                     </nav>
                 </aside>
                 <section class="txt_main ">
+                    
                     <h1>Про футбол</h1>
                     <p>Командний вид спорту, який грається між двома командами по одинадцяти гравців зі сферичним м'ячем. Близько 250 мільйонів чоловіків і жінок із більш ніж 200 країн грають у футбол, що робить його найпопулярнішим в світі видом спорту.</p>
                     <P>У футбол грають на прямокутному полі з воротами на кожному кінці. Мета гри полягає в тому, щоб забити м'яч в ворота протилежної команди. Гравцям не дозволяється торкатися м'яча своїми руками, поки він знаходиться в грі, якщо вони не є воротарі (і тільки тоді, коли в їхньому штрафному майданчику). </P>
@@ -83,13 +78,13 @@
                 </section>
             </div>
         </main>
-        <footer class="items_center">
+        <footer class="flex items_center flex">
             <p>© Футбольний менеджер 2018.</p>
-            <nav class="social_media">
-                <ul>
-                    <li><a href="#"><img src="img/інстаграм.svg" alt=""></a></li>
-                    <li><a href="#"><img src="img/фейсбук.svg" alt=""></a></li>
-                    <li><a href="#"><img src="img/твіттер.svg" alt=""></a></li>
+            <nav class="social_media ">
+                <ul class="flex items_center">
+                    <li><picture><a href=""><img src="img/instagram.svg" alt=""></a></picture></li>
+                    <li><picture><a href=""><img src="img/facebook.svg" alt=""></a></picture></li>
+                    <li><picture><a href=""><img src="img/twitter.svg" alt=""></a></picture></li>
                 </ul>
             </nav>
         </footer>

@@ -11,7 +11,6 @@ ul{
     justify-content: space-between;
 }
 .items_center{
-    display: flex;
     align-items: center;
 }
 header{
@@ -42,6 +41,10 @@ header{
     font-weight: bold;
     font-family: "Arial";
     text-align: right;
+    padding-right: 30px;
+}
+.graphic_photo{
+    padding-right: 10px;
 }
 .contacts{
     font-size: 14px;
@@ -50,9 +53,13 @@ header{
     font-family: "Arial";
     text-align: right;
 }
-.photo{
+.phone_photo{
+    padding-right: 3px;
+}
+.under_photo{
     gap :10px;
-    display: block;
+    display: flex;
+    margin-top: 10px;
 }
 main{
     padding-bottom: 39px;
@@ -61,21 +68,28 @@ main{
     padding-top: 31px;
 }
 .links h2{
+    padding: 13px 14px;
     font-size: 18px;
     text-transform: uppercase;
     color: #ffffff;
-    max-width: 300px;
-    background-color: #39930d;
     font-weight: bold;
     font-family: "Arial";
+    max-width: 300px;
+    background-color: #39930d;
 }
-.list a{
+.links a{
     font-size: 14px;
     line-height: 2.1em;
     text-decoration: underline;
     text-transform: uppercase;
     color: #343434;
     font-family: "Arial";
+    padding-bottom: 14px;
+}
+.links ul {
+    display: block;
+    padding-top: 22px;
+
 }
 .txt_main h1{
     font-size: 24px;
@@ -90,7 +104,7 @@ main{
     color: #343434;
     font-family: "Arial";
 }
-.txt_main h2{
+.txt_main h1{
     margin-bottom: 17px;
     
 }
@@ -104,4 +118,8 @@ footer p{
     font-size: 14px;
     color: #ffffff;
     font-family: "Arial";
+    padding: 13px 13px;
+}
+footer a{
+    padding-right: 11px;
 }
