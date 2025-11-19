@@ -10,6 +10,9 @@ ul{
     display: flex;
     justify-content: space-between;
 }
+.bg_gray{
+    background-color: #f3f3f3;
+}
 .bg_white{
     background-color: #fff;
 }
@@ -27,9 +30,8 @@ body{
     margin: 0 auto;
     padding: 0 15px;
 }
-.ball img{
-    display: block;
-    padding-right: 8px;
+.logo{
+    gap:8px;
     
 }
 .txt p{
@@ -50,8 +52,8 @@ body{
     padding-right: 30px;
     
 }
-.graphic_photo{
-    padding-right: 10px;
+.graphic{
+    gap: 10px;
 }
 .contacts{
     font-size: 14px;
@@ -108,7 +110,7 @@ main{
     margin-bottom: 17px;
 }
 .txt_main p{
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 footer{
     background-color: #39930d;
