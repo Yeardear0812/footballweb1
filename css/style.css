@@ -10,19 +10,28 @@ ul{
     display: flex;
     justify-content: space-between;
 }
+.bg_white{
+    background-color: #fff;
+}
 .items_center{
     align-items: center;
 }
 header{
-    padding: 15px 0;
+    padding: 13px 0;
+}
+body{
+    font-family: "Arial";
 }
 .wrapper{
-    background-color: #fff;
     max-width: 960px;
     margin: 0 auto;
     padding: 0 15px;
 }
-
+.ball img{
+    display: block;
+    padding-right: 8px;
+    
+}
 .txt p{
     font-size: 14px;
     color: #5a5a5a;
@@ -32,14 +41,11 @@ header{
     font-size: 24px;
     text-transform: uppercase;
     color: #39930d;
-    font-weight: bold;
-    font-family: "Arial";
 }
 .graphic{
     font-size: 14px;
     color: #5a5a5a;
     font-weight: bold;
-    font-family: "Arial";
     text-align: right;
     padding-right: 30px;
     
@@ -51,7 +57,6 @@ header{
     font-size: 14px;
     color: #5a5a5a;
     font-weight: bold;
-    font-family: "Arial";
     text-align: right;
 }
 .phone_photo{
@@ -60,7 +65,7 @@ header{
 .under_photo{
     gap :10px;
     display: flex;
-    margin-top: 10px;
+    padding-top: 10px;
 }
 main{
     padding-bottom: 39px;
@@ -69,13 +74,11 @@ main{
     padding-top: 31px;
 }
 .links h2{
-    padding: 14px 13px;
+    padding: 10px 9px;
     font-size: 18px;
     text-transform: uppercase;
     color: #ffffff;
-    font-weight: bold;
-    font-family: "Arial";
-    max-width: 300px;
+    min-width: 300px;
     background-color: #39930d;
 }
 .links a{
@@ -84,7 +87,6 @@ main{
     text-decoration: underline;
     text-transform: uppercase;
     color: #343434;
-    font-family: "Arial";
     padding-bottom: 14px;
 }
 .links ul {
@@ -95,21 +97,18 @@ main{
 .txt_main h1{
     font-size: 24px;
     color: #39930d;
-    font-weight: bold;
-    font-family: "Arial";
 }
 .txt_main{
     max-width: 612px;
     font-size: 14px;
     line-height: 1,5em;
     color: #343434;
-    font-family: "Arial";
 }
 .txt_main h1{
     margin-bottom: 17px;
 }
 .txt_main p{
-    margin-bottom: 18px;
+    margin-bottom: 10gipx;
 }
 footer{
     background-color: #39930d;
@@ -117,8 +116,7 @@ footer{
 footer p{
     font-size: 14px;
     color: #ffffff;
-    font-family: "Arial";
-    padding: 13px 13px;
+    padding: 12px 13px;
 }
 footer a{
     padding-right: 11px;
