@@ -44,13 +44,14 @@ body{
     text-transform: uppercase;
     color: #39930d;
 }
+.logo_info{
+    gap: 30px;
+}
 .graphic{
     font-size: 14px;
     color: #5a5a5a;
     font-weight: bold;
     text-align: right;
-    padding-right: 30px;
-    
 }
 .graphic{
     gap: 10px;
@@ -61,8 +62,8 @@ body{
     font-weight: bold;
     text-align: right;
 }
-.phone_photo{
-    padding-right: 3px;
+.contacts{
+    gap: 3px;
 }
 .under_photo{
     gap :10px;
